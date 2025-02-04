@@ -81,6 +81,8 @@ main {
     padding: 5px;
     position: absolute;
     bottom: 170px;
+    font-size: 13px;
+    color: #ffffff;
 }
 
 .caratteristica {
@@ -89,6 +91,8 @@ main {
     position: absolute;
     bottom: 170px;
     left: 60px;
+    font-size: 13px;
+    color: #ffffff;
 }
 
 .heart {
