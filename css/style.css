@@ -1,7 +1,21 @@
 /* reset */
 
 *{
-    margin: 0% auto;
+    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+
+header {
+    height: 65px;
+    background-color: #ff6900;
+}
+
+.navigazione {
+    width: 1200px;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px;
 }
