@@ -28,21 +28,54 @@ main {
 .layout {
     margin-top: 60px;
     width: 1200px;
-    background-color: aqua;
     margin: 0 auto;
     
 }
 
 .row {
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 
 }
 
 .colonna {
     height: 700px;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px / 3);
     flex-shrink: 0;
     border: 2px solid black;
 }
-    
+
+footer {
+    height: 65px;
+    background-color: #1a1a1a;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    text-align: end;
+
+}
+
+li {
+    padding-right: 10px;
+}
+
+
+.info2 {
+    text-align: end;
+}
+
+.close {
+    width: 1200px;
+    display: flex;
+    margin:0 auto;
+    text-align: start;
+    justify-content: space-between;
+    padding: 25px;
+    color: blanchedalmond;
+}
+
+
