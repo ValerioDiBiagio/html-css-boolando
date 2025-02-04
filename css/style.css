@@ -7,9 +7,14 @@
     font-family: sans-serif;
 }
 
+/* intestazione */
+
 header {
-    height: 65px;
     background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1200;
 }
 
 .navigazione {
@@ -18,7 +23,8 @@ header {
     margin:0 auto;
     justify-content: space-between;
     text-align: center;
-    padding: 25px;
+    align-items: center;
+    padding: 15px; 
 }
 
 a {
@@ -27,40 +33,35 @@ a {
 }
 
 .logo {
-    height: 40px;
+    height: 30px;
     width: 130px;
-    padding-bottom: 10px;
+    align-items: center;
 }
 
-.icon {
-    
-    color: #ffffff;
-}
+/* corpo della pagina */
 
 main {
     margin: 60px;
-
 }
 
 .layout {
-    margin-top: 60px;
+    padding-top: 50px;
     width: 1200px;
     margin: 0 auto;
 }
+
 
 .row {
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 
 .colonna {
-   height: 700px;
+    height: 700px;
     width: calc(100% / 3 - 40px / 3);
     flex-shrink: 0;
-    border: 2px solid black;
     position: relative;
 }
 
@@ -69,7 +70,7 @@ main {
 }
 
 .price {
-    color: red;
+    color: #ff0000;
 }
 
 .delete {
@@ -77,7 +78,7 @@ main {
 }
 
 .sconto {
-    background-color: red;
+    background-color: #ff0000;
     padding: 5px;
     position: absolute;
     bottom: 170px;
@@ -86,11 +87,11 @@ main {
 }
 
 .caratteristica {
-    background-color: green;
+    background-color: #00ff00;
     padding: 5px;
     position: absolute;
     bottom: 170px;
-    left: 60px;
+    left: 50px;
     font-size: 13px;
     color: #ffffff;
 }
@@ -104,7 +105,7 @@ main {
 }
 
 .heart:hover {
-    color: red;
+    color: #ff0000;
 }
 
 .font {
@@ -127,8 +128,10 @@ main {
     display: block;
 }
 
+/* piede della pagina */
+
 footer {
-    height: 80px;
+    height: 90px;
     background-color: #1a1a1a;
 }
 
@@ -144,11 +147,15 @@ li {
 
 .info2 ul li:last-child {
     padding-right: 0;
-    
+}
+
+.info {
+    line-height: 25px;
 }
 
 .info2 {
-    text-align: end;
+    text-align: center;
+    line-height: 25px;
 }
 
 .close {
@@ -158,7 +165,7 @@ li {
     text-align: start;
     justify-content: space-between;
     padding: 25px;
-    color: blanchedalmond;
+    color: #ffffff;
 }
 
 
