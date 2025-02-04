@@ -4,6 +4,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header {
@@ -45,7 +46,6 @@ main {
     margin-top: 60px;
     width: 1200px;
     margin: 0 auto;
-    
 }
 
 .row {
@@ -57,14 +57,70 @@ main {
 }
 
 .colonna {
-    height: 700px;
+   height: 700px;
     width: calc(100% / 3 - 40px / 3);
     flex-shrink: 0;
     border: 2px solid black;
+    position: relative;
 }
 
 .colonna img {
     width: 100%;
+}
+
+.price {
+    color: red;
+}
+
+.delete {
+    text-decoration: line-through;
+}
+
+.sconto {
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    bottom: 170px;
+}
+
+.caratteristica {
+    background-color: green;
+    padding: 5px;
+    position: absolute;
+    bottom: 170px;
+    left: 60px;
+}
+
+.heart {
+    background-color: #ffffff;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.font {
+    font-size: 12px;
+}
+
+.photo1 {
+    display: block;
+}
+
+.photo2 {
+    display: none;
+}
+
+.imageshop:hover .photo1 {
+    display: none;
+}
+
+.imageshop:hover .photo2 {
+    display: block;
 }
 
 footer {
