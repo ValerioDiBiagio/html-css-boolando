@@ -20,6 +20,22 @@ header {
     padding: 25px;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    height: 40px;
+    width: 130px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    
+    color: #ffffff;
+}
+
 main {
     margin: 60px;
 
@@ -47,8 +63,12 @@ main {
     border: 2px solid black;
 }
 
+.colonna img {
+    width: 100%;
+}
+
 footer {
-    height: 65px;
+    height: 80px;
     background-color: #1a1a1a;
 }
 
@@ -56,13 +76,16 @@ ul {
     list-style-type: none;
     display: flex;
     text-align: end;
-
 }
 
 li {
     padding-right: 10px;
 }
 
+.info2 ul li:last-child {
+    padding-right: 0;
+    
+}
 
 .info2 {
     text-align: end;
